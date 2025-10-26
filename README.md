@@ -1,27 +1,29 @@
-
 # Hi there, I'm Atikur Rahman 👋
 
 ## 🚀 Fullstack Web and Software Engineer
 
-Enthusiast programmer with expertise in web, software, and system engineering. I specialize in building high-quality software solutions with 4+ years of professional experience and 6+ years in Linux System Administration.
+Enthusiast programmer with expertise in web, software, and system engineering. I specialize in building high-quality
+software solutions with 5+ years of professional experience and 6+ years in Linux System Administration.
 
 ### 💼 Currently
 
 **Software Engineer** at [Link Tech IT](https://linktech.com.sa/) (Sep 2025 - Present)
+
 - Building enterprise web applications with PHP, Laravel, Rust, Vue etc.
 - Developing REST APIs.
 
 ### 💼 Previously
 
 **Software Engineer** at [Computer Network Systems Limited](https://cnsbd.com/) (Aug 2023 - Sep 2025)
-- Built enterprise web applications with Laravel, Spring Boot, Vue, and React
+
+- Built enterprise web applications with Laravel, Spring Boot, Vue and React
 - Developed REST APIs and Oracle PL/SQL stored procedures
 - Worked on projects for Bangladesh government sectors
-
 
 ### 🛠️ Tech Stack
 
 **Languages**
+
 ```
 PHP  ████████████████████░  95%    JavaScript ██████████████████░░  90%
 Java ████████████████████░  95%    Rust       ████████████████░░░░  80%
@@ -48,23 +50,27 @@ GO   █████████████████░░░░  85%    Kot
 ### 🔬 Research & Publications
 
 **Real-time Pothole Detection and Localization Using Convolutional Neural Network**
+
 - Published in Springer (BIM 2021)
 - [Paper](https://doi.org/10.1007/978-981-16-6636-0_44) | [Code](https://github.com/chitholian/Potholes-Detection)
 
 ### 🏆 Notable Projects
 
 **Government & Enterprise**
+
 - **Call Center & CRM System** - Java Spring Boot, Vue.js, Asterisk PBX for Bangladesh Insurance Sector
 - **MVTAX Collection System** - Laravel, Oracle PL/SQL integration with iBAS for BRTA
 - **Unified Toll Collection Management** - Zend Framework, Oracle, automated vehicle identification
 
 **Telecommunications**
-- **F1VPN & F1Tunnel** - Bandwidth-optimized VPN for VoIP, built with C and GO
-- **F1SMS** - SMPP-based SMS soft-switch with routing and billing
-- **F1Dialer** - Android SIP softphone with server monitoring
+
+- **SMSC** - SMPP-based SMS soft-switch with routing and billing
+- **SoftPhone** - Android SIP softphone with server monitoring
+- **RTP Tunnel** - Bandwidth-optimized tunnel for concurrent RTP channels, built with C and GO
 
 **Mobile & IoT**
-- **F1TopUp** - Mobile recharge system with MFS integration
+
+- **TopUp** - Mobile recharge system with MFS integration
 - **Vehicle Tracking** - Android GPS tracking with Firebase
 
 ### 💡 Areas of Interest
@@ -80,12 +86,14 @@ GO   █████████████████░░░░  85%    Kot
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/chitholian)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chitholian@gmail.com)
 
-📍 Based in Sherpur, Bangladesh
+📍 Based in Sherpur, Mymensingh, Bangladesh
 
 ### 🎓 Education
 
-- **MS in Engineering** - Computer Science, University of Chittagong (CGPA 3.62/4.00)
-- **BSc in Engineering** - Computer Science, University of Chittagong (CGPA 3.73/4.00)
+- **MS in Engineering** - Computer Science & Engineering, University of Chittagong (CGPA 3.62 out of 4.00)
+- **BSc in Engineering** - Computer Science & Engineering, University of Chittagong (CGPA 3.73 out of 4.00)
+- **HSC in Science** - Sherpur Govt. College (GPA 4.90 out of 5.00)
+- **SSC in Science** - Bazitkhila High School (GPA 5.00 out of 5.00)
 
 ---
 

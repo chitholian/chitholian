@@ -1,0 +1,187 @@
+@import "paper.css";
+@import "roboto/style.css";
+
+:root {
+    --bgcolor: var(--clr1);
+    font-size: 4mm;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.name {
+    position: relative;
+}
+
+.name::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 80%;
+    background: var(--clr1);
+    top: .5rem;
+    left: -2.5rem;
+    border-radius: 0 50% 50% 0;
+}
+
+.educations .item {
+    position: relative;
+}
+
+.educations .item:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+.educations .item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    height: 100%;
+    width: 2rem;
+    background: var(--clr1);
+    clip-path: polygon(0 50%, 100% 0%, 100% 100%);
+}
+
+.workshops .item {
+    position: relative;
+}
+
+.workshops .item:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+.workshops .item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    height: 100%;
+    width: 2rem;
+    background: var(--clr1);
+}
+
+.experiences .item {
+    position: relative;
+}
+
+.experiences .item:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+.experiences .item::before {
+    content: '';
+    position: absolute;
+    top: .35rem;
+    left: -2.5rem;
+    height: 100%;
+    width: 2rem;
+    background: var(--clr1);
+    clip-path: polygon(0 0, 100% 0%, 0% 100%);
+}
+
+.experiences .item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1.5rem;
+    width: 100%;
+    background: var(--logo);
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.experiences .item ul {
+    font-size: .9rem;
+}
+
+.progress-container {
+    margin: 0 .2rem;
+    border: 1px solid var(--bgcolor);
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 0;
+    height: .75rem;
+    background-color: var(--bgcolor);
+    border-radius: 4px 0 0 4px;
+    transition: width 0.5s ease-in-out;
+}
+
+.skills table td {
+    white-space: nowrap;
+    font-size: .9rem;
+}
+
+.interests .items {
+    flex-wrap: wrap;
+}
+
+.interests .items > * {
+    white-space: nowrap;
+    font-size: .7rem;
+    text-align: center;
+    padding: .2rem .3rem;
+    flex: 1;
+    border-radius: .45rem;
+    border: .15rem solid var(--clr1);
+    margin: .15rem;
+}
+
+.avatar {
+    --size: 8rem;
+    border-radius: 50%;
+    display: inline-flex;
+    width: var(--size);
+    height: var(--size);
+    align-items: center;
+    justify-content: center;
+    border: .2rem solid var(--clr1);
+}
+
+.avatar img {
+    height: calc(var(--size) - .75rem);
+    width: calc(var(--size) - .75rem);
+    border-radius: 50%;
+}
+
+.contacts * {
+    color: var(--clr1);
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+table.vertical, table.vertical th {
+    text-align: left;
+}
+
+table.vertical th {
+    padding-right: 1rem;
+}
+
+.projects .item {
+    margin: .75rem 0;
+}
