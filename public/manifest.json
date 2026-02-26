@@ -1,0 +1,35 @@
+{
+  "name": "Atikur Rahman Chitholian - Portfolio",
+  "short_name": "Chitholian",
+  "description": "Fullstack Web & Software Engineer with 6+ years of experience. Expert in Laravel, React, Vue.js, Spring Boot, Rust, Go, Python, Java.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/img/avatar.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/avatar.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "personal", "technology"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://github.com/chitholian"
+    }
+  ]
+}

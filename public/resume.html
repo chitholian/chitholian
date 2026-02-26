@@ -19,10 +19,52 @@
         @page {
             size: A4;
         }
+
+        /* Floating Print Button */
+        .print-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--clr1);
+            color: white;
+            border: none;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .print-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        .print-btn:active {
+            transform: translateY(0);
+        }
+        @media print {
+            .print-btn {
+                display: none !important;
+            }
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            body {
+                margin: 0;
+            }
+        }
     </style>
 </head>
 
 <body class="A4">
+    <button class="print-btn" onclick="printResume()">
+        <i class="fas fa-print"></i> Print
+    </button>
 <!-- 1st Page -->
 <section class="sheet">
     <!-- Top Intro -->
@@ -841,5 +883,23 @@
     </div>
 </section>
 </body>
+
+    <script>
+        // Floating Print Button
+        function printResume() {
+            window.print();
+        }
+
+        // Auto-print on page load if URL contains print=true
+        window.addEventListener('load', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('print') === 'true') {
+                // Small delay to ensure page is fully loaded
+                setTimeout(function() {
+                    window.print();
+                }, 500);
+            }
+        });
+    </script>
 
 </html>
