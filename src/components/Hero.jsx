@@ -21,7 +21,7 @@ export default function Hero() {
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.6, type: 'spring' }}
-          className="mb-8 inline-block"
+          className="inline-block"
         >
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full blur opacity-75 animate-pulse" />
@@ -40,9 +40,9 @@ export default function Hero() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4"
         >
-          <span className="text-white">Hi, I'm </span>
+          <span className="text-white text-2xl">Hi, I'm </span><br/>
           <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            {personalInfo.name.split(' ')[0]}
+            {personalInfo.name}
           </span>
         </motion.h1>
 
